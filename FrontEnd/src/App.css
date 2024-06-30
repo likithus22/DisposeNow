@@ -1,0 +1,169 @@
+body {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+#bg_holder {
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    scroll-behavior: auto;
+    z-index: -2;
+    /* align-self: center; */
+}
+
+#outer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+
+#logo {
+    font-family: PASTI;
+    font-size: 7vh;
+    padding: 8vh 5vw 8vh 5vw;
+    color: #FF5B7E;
+    display: flex;
+    text-decoration: none;
+}
+
+nav {
+    display: flex;
+    padding: 8vh 5vw 8vh 5vw;
+    color: #FF5B7E;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header {
+    margin: 2px 30px 2px 30px;
+    padding: 6px 30px 2px 30px;
+    font-size: 3.5vh;
+    font-family: PASTI;
+    color: #FF5B7E;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    border-width: 2px 0px 2px 0px;
+    border-color: #707070;
+}
+
+nav a:hover {
+    transition: 80ms;
+    border-width: 4px 0px 4px 0px;
+    border-style: solid;
+    border-color: #707070;
+    /* transition: 225ms;
+    font-size: 4vh; */
+    background-color: #d4cfcf1b;
+    border-radius: 1px;
+}
+
+#map { height: 180px; }
+
+#funt{
+    border: 2px solid red;
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#outer{
+    display: flex;
+}
+
+#cont{
+    display: inline;
+}
+
+#daytypr1{
+    border:2px solid #FF5B7E;
+    height: 20vh;
+    width: 20vw;
+    margin: 150px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: left;
+    height: max-content;
+    width: max-content;
+    flex-direction: column;
+}
+
+#daytypr1 p{
+    font-size: 8vh;
+    margin: 10px;
+}
+#daytypr1 p:nth-child(1){
+    font-size: 5vh;
+    margin-bottom: 0;
+}
+#daytypr1 p:nth-child(2){
+    background-color: aqua;
+    margin-top: 1px;
+    padding: 10px;
+}
+
+#daytypr2{
+    border:2px solid #FF5B7E;
+    height: 20vh;
+    width: 20vw;
+    margin: 150px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: max-content;
+    width: max-content;
+    flex-direction: column;
+}
+
+#daytypr2 p{
+    font-size: 8vh;
+    margin: 10px;
+}
+#daytypr2 p:nth-child(1){
+    font-size: 5vh;
+    margin-bottom: 0;
+    
+}
+#daytypr2 p:nth-child(2){
+    background-color: aqua;
+    margin-top: 1px;
+    padding: 10px;
+}
+
+#cousal{
+    float: right;
+    position: absolute;
+    top: 30vh;
+    right: 10vw;
+    width: 30vw;
+    height: 10vh;
+}
+
+#cousal p{
+font-size: 7vh;
+color:  red;
+font-family: 'Gill Sans MT'
+}
+
+#abtout{
+    width: 40vw;
+    height: 40vh;
+    margin: 20px;
+    margin-left: 10vw;
+}
+
+#abtout p {
+    font-size: 3vh;
+
+}
+
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
